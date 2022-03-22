@@ -1,0 +1,16 @@
+{% extends 'layouts/home_layout.html' %}
+{% load static %}
+{% load tz %}
+{% block custom_header_script %}
+
+{% endblock %}
+
+{% block content %}
+    {% for mf in my_friendships %}
+        <div>
+            <h5>Name: {{ mf.name }}</h5>
+            <p>Link to share: <a href="{% url 'friendship_test' mf.code %}">{{ url }}{% url 'friendship_test' mf.code %}</a></p>
+        </div>
+    {% endfor %}
+
+{% endblock %}

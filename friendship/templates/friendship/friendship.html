@@ -1,0 +1,47 @@
+{% extends 'layouts/home_layout.html' %}
+{% load static %}
+{% load tz %}
+{% block custom_header_script %}
+
+{% endblock %}
+
+{% block content %}
+    <form action="{% url 'friendship_process' %}" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="questions" value="{{ ids }}">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="full_name">Full Name</label>
+                    <input type="text" name="full_name" class="form-control" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                {% if not request.user.is_authenticated %}
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control" required>
+                {% else %}
+                    <input type="hidden" name="email" value="{{ request.user.email }}">
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            {% for question in questions %}
+                <div class="col-md-12 mt-3">
+                    <h4>{{ question.title }}</h4>
+                    {% for answer in question.answers.all %}
+                        {% if question.type == 1 %}
+                            <input type="radio" name="{{ question.id }}" value="{{ answer.id }}">
+                            <label>{{ answer.answer }}</label><br>
+                        {% else %}
+                            <input type="checkbox" name="{{ question.id }}" value="{{ answer.id }}">
+                            <label> {{ answer.answer }}</label><br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+        <br>
+        <button class="btn btn-outline-primary" type="submit">Submit</button>
+    </form>
+{% endblock %}

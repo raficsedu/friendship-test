@@ -1,0 +1,202 @@
+[
+  {
+    "model": "friendship.question",
+    "pk": 1,
+    "fields": {
+      "title": "Dummy question - 1",
+      "type": 1,
+      "created_at": "2022-03-21T13:37:20Z",
+      "updated_at": "2022-03-21T13:37:43.939Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 2,
+    "fields": {
+      "title": "Dummy question - 2",
+      "type": 2,
+      "created_at": "2022-03-21T13:37:43Z",
+      "updated_at": "2022-03-21T13:37:48.369Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 3,
+    "fields": {
+      "title": "Dummy question - 3",
+      "type": 2,
+      "created_at": "2022-03-21T13:37:48Z",
+      "updated_at": "2022-03-21T13:37:52.092Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 4,
+    "fields": {
+      "title": "Dummy question - 4",
+      "type": 2,
+      "created_at": "2022-03-21T13:37:52Z",
+      "updated_at": "2022-03-21T13:37:55.481Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 5,
+    "fields": {
+      "title": "Dummy question - 5",
+      "type": 1,
+      "created_at": "2022-03-21T13:37:55Z",
+      "updated_at": "2022-03-21T13:38:00.587Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 6,
+    "fields": {
+      "title": "Dummy question - 6",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:00Z",
+      "updated_at": "2022-03-21T13:38:05.347Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 7,
+    "fields": {
+      "title": "Dummy question - 7",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:05Z",
+      "updated_at": "2022-03-21T13:38:12.434Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 8,
+    "fields": {
+      "title": "Dummy question - 8",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:12Z",
+      "updated_at": "2022-03-21T13:38:16.058Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 9,
+    "fields": {
+      "title": "Dummy question - 9",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:16Z",
+      "updated_at": "2022-03-21T13:38:19.682Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 10,
+    "fields": {
+      "title": "Dummy question - 10",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:19Z",
+      "updated_at": "2022-03-21T13:38:25.723Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 11,
+    "fields": {
+      "title": "Dummy question - 11",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:25Z",
+      "updated_at": "2022-03-21T13:38:30.432Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 12,
+    "fields": {
+      "title": "Dummy question - 12",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:30Z",
+      "updated_at": "2022-03-21T13:38:33.581Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 13,
+    "fields": {
+      "title": "Dummy question - 13",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:33Z",
+      "updated_at": "2022-03-21T13:38:38.014Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 14,
+    "fields": {
+      "title": "Dummy question - 14",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:38Z",
+      "updated_at": "2022-03-21T13:38:44.920Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 15,
+    "fields": {
+      "title": "Dummy question - 15",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:44Z",
+      "updated_at": "2022-03-21T13:38:48.950Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 16,
+    "fields": {
+      "title": "Dummy question - 16",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:48Z",
+      "updated_at": "2022-03-21T13:38:52.519Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 17,
+    "fields": {
+      "title": "Dummy question - 17",
+      "type": 2,
+      "created_at": "2022-03-21T13:38:52Z",
+      "updated_at": "2022-03-21T13:38:55.373Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 18,
+    "fields": {
+      "title": "Dummy question - 18",
+      "type": 1,
+      "created_at": "2022-03-21T13:38:55Z",
+      "updated_at": "2022-03-21T13:39:01.574Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 19,
+    "fields": {
+      "title": "Dummy question - 19",
+      "type": 1,
+      "created_at": "2022-03-21T13:39:01Z",
+      "updated_at": "2022-03-21T13:39:06.869Z"
+    }
+  },
+  {
+    "model": "friendship.question",
+    "pk": 20,
+    "fields": {
+      "title": "Dummy question - 20",
+      "type": 2,
+      "created_at": "2022-03-21T13:39:06Z",
+      "updated_at": "2022-03-21T13:39:11.921Z"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{% extends 'layouts/home_layout.html' %}
+{% load static %}
+{% load tz %}
+{% block custom_header_script %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="">
+        <p>You know your friend <strong>{{ name }}</strong> very well, you answered <strong>{{ result }}%</strong> of all questions like them.</p>
+    </div>
+{% endblock %}

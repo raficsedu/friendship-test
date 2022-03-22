@@ -1,0 +1,30 @@
+{% extends 'layouts/home_layout.html' %}
+{% load static %}
+{% load tz %}
+{% block custom_header_script %}
+
+{% endblock %}
+
+{% block content %}
+    <h3>Home Page</h3>
+    <p>
+        Any user can create a friendship-test by answering 10 random questions. The questions and their corresponding
+        answers are predefined and provided by the application. The user gets the link to the created test and can share
+        it with friends. A friend is asked exactly the same questions and gets the percentage of matching answers after
+        submitting the form.
+    </p>
+    <p>
+        Users are able to answer 10 different questions (out of 20 questions) with multiple answers that are specific
+        for these questions. Each question has a variable amount of answers.
+        User name is required in order to create a friendship test.
+        After submitting the form a new user account is created and the results are saved to DB and linked to the user’s
+        account
+        User is redirected to his friendship test and the link can be shared with his friends
+        His friends then can answer the user’s questions as well
+        In the end we want to display to what percentage the user’s friends matched the user’s answers
+        His friends then get a message like: “You know your friend X very well, you answered xx% of all questions like
+        them”
+        Afterwards friends can create their own friendship-test by answering 10 questions and sharing them
+        It is possible to create multiple friendship tests
+    </p>
+{% endblock %}
